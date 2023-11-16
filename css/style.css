@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* NAV */
+
+.navbar {
+  padding: 10px 0;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  height: 39px;
+  box-sizing: content-box;
+  padding: 10px 0;
+}
+
+.nav__content {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 0 28px;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.nav__list__item > a {
+  text-decoration: none;
+  color: #444;
+}
+
+.nav__btn {
+  border-radius: 6px;
+  background: #575445;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  padding: 10px 18px;
+  border: 0;
+  cursor: pointer;
+}
+
+.nav__btn > span {
+  padding: 0 6px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #575445;
+}
+
+.first-btn {
+  margin: 0 20px 0 40px;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 640px;
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__content {
+  min-height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 495px;
+}
+
+.highlight {
+  color: #e6b939;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  margin-bottom: 10px;
+}
+
+.hero__text {
+  color: #caccd1;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+
+/* ABOUT */
+
+.about {
+  padding: 100px 0;
+}
+
+.about__wrapper {
+  display: flex;
+  gap: 0 100px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section__title {
+  color: #575445;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+}
+
+.section__text {
+  color: #575445;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin: 8px 0px 20px;
+}
+
+.section__link {
+  text-decoration: none;
+  color: #575445;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* PROMISE */
+
+.promise {
+  background-color: #e7e7ed;
+  padding: 100px 0;
+}
+
+.promise__header {
+  text-align: center;
+}
+
+.promise__header > .section__text {
+  max-width: 538px;
+  margin: auto;
+}
+
+.promise__cards {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.promise__card {
+  text-align: center;
+  width: 388px;
+  padding: 50px;
+}
+
+.promise__card > h3 {
+  color: #575445;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.promise__card > p {
+  color: #575445;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+
+/* STORE */
+
+.store {
+  padding: 100px 0;
+}
+
+.store__header {
+  text-align: center;
+}
+
+.store__header > .section__text {
+  max-width: 538px;
+  margin: auto;
+}
+
+.store__cards {
+  margin-top: 20px;
+  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.store__card {
+  width: 378px;
+  min-height: 478px;
+  text-align: center;
+  padding: 40px 40px 0;
+
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.store__link {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 20px;
+}
+
+.accessories {
+  background-image: url("../img/Accessories.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.apparel {
+  background-image: url("../img/Apparel.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.climbing {
+  background-image: url("../img/Climbing\ Gear.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headwear {
+  background-image: url("../img/Headwear.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hiking {
+  background-image: url("../img/Hiking\ Gear.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jackets {
+  background-image: url("../img/Jackets.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* OCEAN */
+
+.ocean {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  min-height: 600px;
+  background-image: url("../img/ocean.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 40px 40px 0;
+}
+
+.ocean__wrapper {
+  max-width: 615px;
+  border-radius: 16px;
+  background: #292c32;
+}
+
+.ocean__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 22px;
+  list-style: none;
+  gap: 0 20px;
+}
+
+.ocean__list__item > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+/* SHOP */
+
+.shop {
+  padding: 100px 0;
+  background: #375c58;
+  background-image: url("../img/shape.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.shop__highlight {
+  color: #fafafc;
+}
+
+.shop__title {
+  color: #e6b939;
+}
+
+.shop__text {
+  color: #fafafc;
+  margin: 0 auto;
+  margin-top: 7px;
+  max-width: 538px;
+  margin: auto;
+}
+
+.shop__btn {
+  margin-top: 20px;
+  border: 0;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background: #fff;
+  color: #575445;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+/* GUIDE */
+
+.guide {
+  padding: 100px 0;
+}
+
+.guide__text {
+  max-width: 538px;
+  margin-top: 7px;
+}
+
+.guide__block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 32px;
+}
+
+.guide__content {
+  max-width: 568px;
+}
+
+.guide__info {
+  max-width: 468px;
+  margin-top: 18px;
+  color: #575445;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.guide__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.guide__profile__content {
+  display: flex;
+  gap: 0 12px;
+}
+
+.guide__profile__name {
+  color: #575445;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+.guide__profile__job {
+  color: #e6b939;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15.4px;
+}
+
+.guide__date {
+  color: #6f7278;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #575445;
+  min-height: 567px;
+}
+
+.footer__wrapper {
+  padding: 100px 0;
+}
+
+.footer__logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 76px;
+}
+
+.footer__content {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__list {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  list-style: none;
+  gap: 9px 0;
+}
+
+.first-list {
+  color: #e6b939;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer__subscribe {
+  max-width: 457px;
+}
+
+.footer__subscribe__text {
+  color: #fafafc;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  margin-bottom: 9px;
+}
+
+.footer__email {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  padding: 7px;
+}
+.footer__email > input {
+  border: 0;
+  color: #575445;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  margin-left: 20px;
+}
+
+.footer__email__btn {
+  border-radius: 10px;
+  background: #575445;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  padding: 10px 12px;
+  border: 0;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer__info {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+
+.footer__link {
+    display: flex;
+    gap: 0 20px;
+}
